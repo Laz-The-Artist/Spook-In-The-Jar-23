@@ -1,4 +1,4 @@
-![Mod logo](soon)
+![Mod logo](https://raw.githubusercontent.com/Laz-The-Artist/Jam-In-The-Jar_Spooktober-2023/main/src/main/resources/redclown.png)
 # Jam-In-The-Jar: Spooktober-2023
 A Spooky Mod-Jam 2023 entry made by [Laz], Monozari &amp; LastFlareZ.  
 Jam-In-The-Jar series entry 1.
