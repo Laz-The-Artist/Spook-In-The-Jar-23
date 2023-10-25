@@ -1,6 +1,7 @@
 package net.laz.jitj_spooktober23.item;
 
 import net.laz.jitj_spooktober23.JITJSpooktober23;
+import net.laz.jitj_spooktober23.block.ModBlockRegistry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -15,7 +16,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItemRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, JITJSpooktober23.MODID);
 
-    //public static final RegistryObject<Item> CARDBOARD = ITEMS.register("cardboard", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRAIN_JAR = ITEMS.register("brain_in_a_jar", () -> new BrainJarItem(ModBlockRegistry.BRAIN_JAR.get(), new Item.Properties()));
 
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, JITJSpooktober23.MODID);
@@ -24,7 +25,7 @@ public class ModItemRegistry {
             .icon(() -> new ItemStack(Items.PUMPKIN_PIE))
             .title(Component.translatable("creativetab.jitj_spooktober23_creative_tab_label"))
             .displayItems((parameters, output) -> {
-                output.accept(Items.PUMPKIN_PIE);
+                output.accept(BRAIN_JAR.get());
             }).build());
 
     public static void register(IEventBus bus){

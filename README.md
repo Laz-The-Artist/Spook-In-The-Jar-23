@@ -13,7 +13,7 @@ The mod was designed for Minecraft 1.20.1, on the Forge modloader platform. No p
 The mod also utilizes the famous GeckoLib for its animations, and is recquired for running the mod.  
 You can install JEI to know more about the recipes the mod has, and further custom jei integration is planned. (Dont know if it will be ready before October 31. -Laz)
 ## Forge 1.20.1-47.2.1
-## Geckolib version-dont forget to add -Laz
+## Geckolib 1.20.1-4.2.3
 ## Jei version-dont forget to add -Laz
 
 # Credits
