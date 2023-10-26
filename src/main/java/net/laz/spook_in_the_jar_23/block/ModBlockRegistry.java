@@ -20,6 +20,7 @@ public class ModBlockRegistry {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, SpookInTheJar23.MODID);
 
     public static final RegistryObject<Block> BRAIN_JAR = BLOCKS.register("brain_in_a_jar", () -> new BrainInAJar(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final RegistryObject<Block> JACK_IN_THE_BOX = BLOCKS.register("jack_in_the_box", () -> new JackInTheBox(BlockBehaviour.Properties.of().noOcclusion()));
 
     public static void register(IEventBus bus){
         BLOCKS.register(bus);

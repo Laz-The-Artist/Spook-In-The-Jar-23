@@ -12,6 +12,7 @@ public class ModBlockEntityRegistry {
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, SpookInTheJar23.MODID);
 
     public static final RegistryObject<BlockEntityType<BrainInAJarBE>> BRAIN_JAR_BE = BLOCK_ENTITIES.register("brain_in_a_jar", () -> BlockEntityType.Builder.of(BrainInAJarBE::new, ModBlockRegistry.BRAIN_JAR.get()).build(null));
+    public static final RegistryObject<BlockEntityType<JackInTheBoxBE>> JACK_IN_THE_BOX_BE = BLOCK_ENTITIES.register("jack_in_the_box", () -> BlockEntityType.Builder.of(JackInTheBoxBE::new, ModBlockRegistry.JACK_IN_THE_BOX.get()).build(null));
 
     public static void register(IEventBus eventBus){
         BLOCK_ENTITIES.register(eventBus);

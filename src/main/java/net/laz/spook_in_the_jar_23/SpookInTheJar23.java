@@ -2,8 +2,10 @@ package net.laz.spook_in_the_jar_23;
 
 import com.mojang.logging.LogUtils;
 import net.laz.spook_in_the_jar_23.block.ModBlockRegistry;
+import net.laz.spook_in_the_jar_23.blockentity.JackInTheBoxBE;
 import net.laz.spook_in_the_jar_23.blockentity.ModBlockEntityRegistry;
-import net.laz.spook_in_the_jar_23.blockentity.client.BrainJarBlockRenderer;
+import net.laz.spook_in_the_jar_23.blockentity.client.BrainJarBERenderer;
+import net.laz.spook_in_the_jar_23.blockentity.client.JackInTheBoxBERenderer;
 import net.laz.spook_in_the_jar_23.item.ModItemRegistry;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
@@ -63,7 +65,8 @@ public class SpookInTheJar23 {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            BlockEntityRenderers.register(ModBlockEntityRegistry.BRAIN_JAR_BE.get(), BrainJarBlockRenderer::new);
+            BlockEntityRenderers.register(ModBlockEntityRegistry.BRAIN_JAR_BE.get(), BrainJarBERenderer::new);
+            BlockEntityRenderers.register(ModBlockEntityRegistry.JACK_IN_THE_BOX_BE.get(), JackInTheBoxBERenderer::new);
         }
 
     }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "spook_in_the_jar_23:block/jack_in_the_box",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "spook_in_the_jar_23:block/jack_in_the_box"
+    },
+    "facing=south": {
+      "model": "spook_in_the_jar_23:block/jack_in_the_box",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "spook_in_the_jar_23:block/jack_in_the_box",
+      "y": 270
+    }
+  }
+}
