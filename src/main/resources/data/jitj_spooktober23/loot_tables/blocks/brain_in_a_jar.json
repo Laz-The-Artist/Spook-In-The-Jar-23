@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jitj_spooktober23:brain_in_a_jar"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "jitj_spooktober23:blocks/brain_in_a_jar"
+}
