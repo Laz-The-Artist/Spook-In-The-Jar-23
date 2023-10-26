@@ -1,7 +1,7 @@
-package net.laz.jitj_spooktober23.item;
+package net.laz.spook_in_the_jar_23.item;
 
-import net.laz.jitj_spooktober23.JITJSpooktober23;
-import net.laz.jitj_spooktober23.block.ModBlockRegistry;
+import net.laz.spook_in_the_jar_23.SpookInTheJar23;
+import net.laz.spook_in_the_jar_23.block.ModBlockRegistry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -14,16 +14,16 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItemRegistry {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, JITJSpooktober23.MODID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SpookInTheJar23.MODID);
 
     public static final RegistryObject<Item> BRAIN_JAR = ITEMS.register("brain_in_a_jar", () -> new BrainJarItem(ModBlockRegistry.BRAIN_JAR.get(), new Item.Properties()));
 
 
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, JITJSpooktober23.MODID);
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SpookInTheJar23.MODID);
 
-    public static final RegistryObject<CreativeModeTab> MOD_TAB = CREATIVE_MODE_TABS.register("jitj_spooktober23_creative_tab", () -> CreativeModeTab.builder()
+    public static final RegistryObject<CreativeModeTab> MOD_TAB = CREATIVE_MODE_TABS.register("spook_in_the_jar_23_creative_tab", () -> CreativeModeTab.builder()
             .icon(() -> new ItemStack(Items.PUMPKIN_PIE))
-            .title(Component.translatable("creativetab.jitj_spooktober23_creative_tab_label"))
+            .title(Component.translatable("creativetab.spook_in_the_jar_23_creative_tab_label"))
             .displayItems((parameters, output) -> {
                 output.accept(BRAIN_JAR.get());
             }).build());

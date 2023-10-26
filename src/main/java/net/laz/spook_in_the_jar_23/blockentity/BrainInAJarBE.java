@@ -1,9 +1,7 @@
-package net.laz.jitj_spooktober23.blockentity;
+package net.laz.spook_in_the_jar_23.blockentity;
 
-import net.laz.jitj_spooktober23.block.ModBlockRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import software.bernie.geckolib.animatable.GeoBlockEntity;
 import software.bernie.geckolib.core.animatable.GeoAnimatable;

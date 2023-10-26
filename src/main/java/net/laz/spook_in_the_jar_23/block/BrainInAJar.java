@@ -1,6 +1,6 @@
-package net.laz.jitj_spooktober23.block;
+package net.laz.spook_in_the_jar_23.block;
 
-import net.laz.jitj_spooktober23.blockentity.BrainInAJarBE;
+import net.laz.spook_in_the_jar_23.blockentity.BrainInAJarBE;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;

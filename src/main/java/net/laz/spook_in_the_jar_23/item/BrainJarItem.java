@@ -1,6 +1,6 @@
-package net.laz.jitj_spooktober23.item;
+package net.laz.spook_in_the_jar_23.item;
 
-import net.laz.jitj_spooktober23.item.client.BrainJarItemRenderer;
+import net.laz.spook_in_the_jar_23.item.client.BrainJarItemRenderer;
 import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;

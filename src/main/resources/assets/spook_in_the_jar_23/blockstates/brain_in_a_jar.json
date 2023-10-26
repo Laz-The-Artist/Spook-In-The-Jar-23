@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "spook_in_the_jar_23:block/brain_in_a_jar",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "spook_in_the_jar_23:block/brain_in_a_jar"
+    },
+    "facing=south": {
+      "model": "spook_in_the_jar_23:block/brain_in_a_jar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "spook_in_the_jar_23:block/brain_in_a_jar",
+      "y": 270
+    }
+  }
+}

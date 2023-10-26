@@ -1,7 +1,7 @@
-package net.laz.jitj_spooktober23.block;
+package net.laz.spook_in_the_jar_23.block;
 
-import net.laz.jitj_spooktober23.JITJSpooktober23;
-import net.laz.jitj_spooktober23.item.ModItemRegistry;
+import net.laz.spook_in_the_jar_23.SpookInTheJar23;
+import net.laz.spook_in_the_jar_23.item.ModItemRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -17,7 +17,7 @@ import net.minecraftforge.registries.RegistryObject;
 import java.util.function.Supplier;
 
 public class ModBlockRegistry {
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, JITJSpooktober23.MODID);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, SpookInTheJar23.MODID);
 
     public static final RegistryObject<Block> BRAIN_JAR = BLOCKS.register("brain_in_a_jar", () -> new BrainInAJar(BlockBehaviour.Properties.of().noOcclusion()));
 

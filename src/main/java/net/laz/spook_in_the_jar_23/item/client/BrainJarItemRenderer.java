@@ -1,6 +1,6 @@
-package net.laz.jitj_spooktober23.item.client;
+package net.laz.spook_in_the_jar_23.item.client;
 
-import net.laz.jitj_spooktober23.item.BrainJarItem;
+import net.laz.spook_in_the_jar_23.item.BrainJarItem;
 import software.bernie.geckolib.renderer.GeoItemRenderer;
 
 public class BrainJarItemRenderer extends GeoItemRenderer<BrainJarItem> {
